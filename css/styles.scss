@@ -1,0 +1,82 @@
+$primaryColor: #427ac2;
+$secondaryColor: #91bade;
+
+//Mixins
+@mixin padding-margin($up-down, $left-right) {
+    margin:0px;
+    padding: $up-down $left-right;
+}
+
+.jumbotron {
+    @include padding-margin(20px, 10px);
+    background-color: $primaryColor;
+    color:white
+}
+
+.card-header {
+    padding: .3em 1em;
+}
+
+.card-body {
+    border: 1px solid $secondaryColor;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.2em
+}
+
+h5 {
+    font-size: 1em;
+}
+
+.row-content {
+    @include padding-margin(20px, 10px);
+}
+
+.main-list li {
+    padding: 10px;
+    ul {
+        display: inline !important;
+    }
+}
+
+.skills {
+    @include padding-margin(10px, 0px);
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin:3px;
+            .badge {
+                font-weight: normal;;
+                font-size: 0.9em;
+                padding: 0.7em 0.9em;
+            }
+        }
+    }
+    #lang {
+        display: unset;
+        padding: 0px;
+    }
+}
+
+.footer {
+    @include padding-margin(20px, 10px);
+    color: white;
+}
+
+.borderbottom {
+    border-bottom: 1px solid $secondaryColor;
+}
+
+a {
+    color: black;
+}
+
+footer a {
+    color: white;
+}

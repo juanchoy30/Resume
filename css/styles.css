@@ -1,0 +1,59 @@
+.jumbotron {
+  margin: 0px;
+  padding: 20px 10px;
+  background-color: #427ac2;
+  color: white; }
+
+.card-header {
+  padding: .3em 1em; }
+
+.card-body {
+  border: 1px solid #91bade; }
+
+h3 {
+  font-size: 1.3em; }
+
+h4 {
+  font-size: 1.2em; }
+
+h5 {
+  font-size: 1em; }
+
+.row-content {
+  margin: 0px;
+  padding: 20px 10px; }
+
+.main-list li {
+  padding: 10px; }
+  .main-list li ul {
+    display: inline !important; }
+
+.skills {
+  margin: 0px;
+  padding: 10px 0px; }
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap; }
+    .skills ul li {
+      margin: 3px; }
+      .skills ul li .badge {
+        font-weight: normal;
+        font-size: 0.9em;
+        padding: 0.7em 0.9em; }
+  .skills #lang {
+    display: unset;
+    padding: 0px; }
+
+.footer {
+  margin: 0px;
+  padding: 20px 10px;
+  color: white; }
+
+.borderbottom {
+  border-bottom: 1px solid #91bade; }
+
+a {
+  color: black; }
+
+footer a {
+  color: white; }

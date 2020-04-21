@@ -1,0 +1,46 @@
+{
+  "name": "resume-juan-choy-wer-developer",
+  "version": "1.0.0",
+  "description": "This page will contain my professional resume",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\"",
+    "clean": "rimraf dist",
+    "imagemin": "imagemin images/* --out-dir=dist/images",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run clean && npm run imagemin && npm run usemin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanchoy30/Resume.git"
+  },
+  "author": "Juan Miguel Choy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juanchoy30/Resume/issues"
+  },
+  "homepage": "https://github.com/juanchoy30/Resume#readme",
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "htmlmin": "0.0.7",
+    "lite-server": "^2.5.4",
+    "node-sass": "^4.13.1",
+    "onchange": "^6.1.0",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^3.0.2",
+    "uglifyjs": "^2.4.11",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  }
+}
