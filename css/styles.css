@@ -1,3 +1,15 @@
+body p, body li {
+  text-align: justify; }
+
+body h3 {
+  font-size: 1.3em; }
+
+body h4 {
+  font-size: 1.2em; }
+
+body h5 {
+  font-size: 1em; }
+
 .jumbotron {
   margin: 0px;
   padding: 20px 10px;
@@ -6,27 +18,19 @@
   .jumbotron img {
     border-radius: 10px;
     width: 160px;
-    height: 174; }
+    height: 174;
+    box-shadow: 5px 3px 5px black; }
   .jumbotron .btn {
     box-shadow: 5px 3px 5px black; }
 
 .card {
   box-shadow: 5px 3px 5px gray; }
-
-.card-header {
-  padding: .3em 1em; }
-
-.card-body {
-  border: 1px solid #91bade; }
-
-h3 {
-  font-size: 1.3em; }
-
-h4 {
-  font-size: 1.2em; }
-
-h5 {
-  font-size: 1em; }
+  .card .card-header {
+    padding: .3em 1em; }
+  .card .card-body {
+    border: 1px solid #91bade; }
+    .card .card-body a {
+      color: black; }
 
 .row-content {
   margin: 0px;
@@ -35,7 +39,7 @@ h5 {
 .main-list li {
   padding: 10px; }
   .main-list li ul {
-    display: inline !important; }
+    display: inline; }
 
 .skills {
   margin: 0px;
@@ -50,8 +54,7 @@ h5 {
         font-size: 0.9em;
         padding: 0.7em 0.9em; }
   .skills #lang {
-    display: unset;
-    padding: 0px; }
+    padding: 0px 15px; }
 
 .footer {
   margin: 0px;
@@ -59,12 +62,8 @@ h5 {
   color: white; }
   .footer .btn {
     box-shadow: 5px 3px 5px black; }
-
-footer a {
-  color: white; }
-
-a {
-  color: black; }
+  .footer a {
+    color: white; }
 
 .borderbottom {
   border-bottom: 1px solid #91bade; }

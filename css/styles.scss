@@ -7,6 +7,21 @@ $secondaryColor: #91bade;
     padding: $up-down $left-right;
 }
 
+body {
+    p, li {
+        text-align: justify;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+    h4 {
+        font-size: 1.2em
+    }
+    h5 {
+        font-size: 1em;
+    }
+}
+
 .jumbotron {
     @include padding-margin(20px, 10px);
     background-color: $primaryColor;
@@ -15,6 +30,7 @@ $secondaryColor: #91bade;
         border-radius: 10px;
         width: 160px;
         height: 174;
+        box-shadow: 5px 3px 5px black;
     }
     .btn {
         box-shadow: 5px 3px 5px black;
@@ -23,26 +39,15 @@ $secondaryColor: #91bade;
 
 .card {
     box-shadow: 5px 3px 5px gray;
-}
-
-.card-header {
-    padding: .3em 1em;
-}
-
-.card-body {
-    border: 1px solid $secondaryColor;
-}
-
-h3 {
-    font-size: 1.3em;
-}
-
-h4 {
-    font-size: 1.2em
-}
-
-h5 {
-    font-size: 1em;
+    .card-header {
+        padding: .3em 1em;
+    }
+    .card-body {
+        border: 1px solid $secondaryColor;
+        a {
+            color: black;
+        }
+    }
 }
 
 .row-content {
@@ -52,7 +57,7 @@ h5 {
 .main-list li {
     padding: 10px;
     ul {
-        display: inline !important;
+        display: inline;
     }
 }
 
@@ -71,8 +76,7 @@ h5 {
         }
     }
     #lang {
-        display: unset;
-        padding: 0px;
+        padding: 0px 15px;
     }
 }
 
@@ -82,15 +86,11 @@ h5 {
     .btn {
         box-shadow: 5px 3px 5px black;
     }
+    a {
+        color: white;
+    }
 }
 
-footer a {
-    color: white;
-}
-
-a {
-    color: black;
-}
 
 .borderbottom {
     border-bottom: 1px solid $secondaryColor;
