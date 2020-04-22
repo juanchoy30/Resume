@@ -10,7 +10,19 @@ $secondaryColor: #91bade;
 .jumbotron {
     @include padding-margin(20px, 10px);
     background-color: $primaryColor;
-    color:white
+    color:white;
+    img {
+        border-radius: 10px;
+        width: 160px;
+        height: 174;
+    }
+    .btn {
+        box-shadow: 5px 3px 5px black;
+    }
+}
+
+.card {
+    box-shadow: 5px 3px 5px gray;
 }
 
 .card-header {
@@ -67,16 +79,25 @@ h5 {
 .footer {
     @include padding-margin(20px, 10px);
     color: white;
+    .btn {
+        box-shadow: 5px 3px 5px black;
+    }
 }
 
-.borderbottom {
-    border-bottom: 1px solid $secondaryColor;
+footer a {
+    color: white;
 }
 
 a {
     color: black;
 }
 
-footer a {
-    color: white;
+.borderbottom {
+    border-bottom: 1px solid $secondaryColor;
 }
+
+
+.btn, .badge {
+    box-shadow: 5px 3px 5px gray;
+}
+

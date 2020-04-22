@@ -3,6 +3,15 @@
   padding: 20px 10px;
   background-color: #427ac2;
   color: white; }
+  .jumbotron img {
+    border-radius: 10px;
+    width: 160px;
+    height: 174; }
+  .jumbotron .btn {
+    box-shadow: 5px 3px 5px black; }
+
+.card {
+  box-shadow: 5px 3px 5px gray; }
 
 .card-header {
   padding: .3em 1em; }
@@ -48,12 +57,17 @@ h5 {
   margin: 0px;
   padding: 20px 10px;
   color: white; }
+  .footer .btn {
+    box-shadow: 5px 3px 5px black; }
 
-.borderbottom {
-  border-bottom: 1px solid #91bade; }
+footer a {
+  color: white; }
 
 a {
   color: black; }
 
-footer a {
-  color: white; }
+.borderbottom {
+  border-bottom: 1px solid #91bade; }
+
+.btn, .badge {
+  box-shadow: 5px 3px 5px gray; }
