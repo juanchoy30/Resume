@@ -1,0 +1,60 @@
+{
+    "PORTFOLIO": [
+        {
+            "title": "Recetas de Cristina y Juan",
+            "description": "A recipe web page made with Bootstrap 4.",
+            "descripcion": "Página web de un catálogo de recetas realizada con Bootstrap 4.",
+            "repository": "https://github.com/juanchoy30/recetas-juan-cristina",
+            "link": "https://raw.githack.com/juanchoy30/recetas-juan-cristina/master/dist/index.html",
+            "picture": "img/recetaslogo2.png"
+        },
+        {
+            "title": "Recipes catalog",
+            "description": "A recipe catalog made with AngularJS.",
+            "descripcion": "Catálogo para recetas hecho con AngularJS.",
+            "repository": "https://github.com/juanchoy30/recipes-angular",
+            "link": null,
+            "picture": null
+        },
+        {
+            "title": "Tribute Page",
+            "description": "A tribute page about this excellent venezuelan writer",
+            "descripcion": "Página tributo del escritor Venezolano Francisco Herrera Luque.",
+            "repository": "https://github.com/juanchoy30/tribute-page",
+            "link": "https://raw.githack.com/juanchoy30/tribute-page/master/dist/index.html",
+            "picture": "img/tributepage.PNG"
+        },
+        {
+            "title": "Survey Form",
+            "description": "A survey form made to check the level of satisfaction of the employees of a company during home office",
+            "descripcion": "Una encuesta para verificar el nivel de satisfacción de los empleados de una compañia durante el Home Office.",
+            "repository": "https://github.com/juanchoy30/survey-form",
+            "link": "https://raw.githack.com/juanchoy30/survey-form/master/dist/index.html",
+            "picture": "img/surveyForm.PNG"
+        },
+        {
+            "title": "Product Landing Web Page",
+            "description": "A product landing web page about a game service",
+            "descripcion": "Página de servicio de Video Juegos.",
+            "repository": "https://github.com/juanchoy30/product-landing-page",
+            "link": "https://raw.githack.com/juanchoy30/product-landing-page/master/dist/index.html",
+            "picture": "img/pixeland.PNG"
+        },
+        {
+            "title": "Technical Documentation Web Page",
+            "description": "A technical documentation site about fire protection systems",
+            "descripcion": "Documentación técnica acerca de sistemas contra incendio.",
+            "repository": "https://github.com/juanchoy30/technical-documentation-page",
+            "link": "https://raw.githack.com/juanchoy30/technical-documentation-page/master/dist/index.html",
+            "picture": "img/documentationpage.PNG"
+        },
+        {
+            "title": "Personal Portfolio",
+            "description": "If you want to see more please check out my personal portfolio",
+            "descripcion": "Si deseas seguir viendo más trabajos puedes entrar a mi portafolio personal.",
+            "repository": "https://github.com/juanchoy30/personal-portfolio-webpage",
+            "link": "https://raw.githack.com/juanchoy30/personal-portfolio-webpage/master/dist/index.html",
+            "picture": null
+        }
+    ]
+}

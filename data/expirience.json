@@ -1,0 +1,54 @@
+{
+    "EXPIRIENCE": [
+        {
+            "title": "Freelancer web developer",
+            "titulo": "Freelancer web developer",
+            "company": null,
+            "place": "Buenos Aires, Argentina", 
+            "date": "April 2020 - Present",
+            "fecha": "Abril 2020 - Presente",
+            "description": "Construction of UI responsive websites (HTML/CSS/JavaScript) using the tool Bootstrap 4 and AngularJS.",
+            "descripcion": "Construcción de páginas web adaptables (HTML/CSS/JavaScript) empleando la herramienta Bootstrap 4 y Angular."
+        },
+        {
+            "title": "Shutdown planning analyst",
+            "titulo": "Analista de planificación",
+            "company": "Amstork",
+            "place": "Buenos Aires, Argentina", 
+            "date": "March 2018 – September 2019",
+            "fecha": "Marzo 2018 – Septiembre 2019",
+            "description": "Participated in the planning and execution of plant shutdowns in the Shell refinery. I was in charge verifying activities and materials for mechanical equipment and piping, required for the shutdown.",
+            "descripcion": "Participé en la planificación y ejecución de paradas de planta en la refinería Shell Dock Sud. Estuve a cargo de verificar actividades y materiales de equipos mecánicos y piping."
+        },
+        {
+            "title": "Freelancer Project Engineer",
+            "titulo": "Ingeniero de Proyectos Freelancer",
+            "company": null,
+            "place": "Buenos Aires, Argentina", 
+            "date": "August 2017 – February 2018",
+            "fecha": "Agosto 2017 – Febrero 2018",
+            "description": "Verified an hydraulic fire protection system within a gas plant, which failed under NFPA standards. I made a simulation that was in accord with the standards, delivering a solution for this particular problem.",
+            "descripcion": "Comprobé el cálculo hidráulico de un sistema de extinción de incendios fuera de norma en una planta de gas y ofrecí una solución acorde a las normas aplicables de incendio."
+        },
+        {
+            "title": "Maintenance Engineer",
+            "titulo": "Ingeniero de Mantenimiento",
+            "company": "G&B Controls",
+            "place": "Buenos Aires, Argentina", 
+            "date": "August 2017 – January 2018",
+            "fecha": "Agosto 2017 – Febrero 2018",
+            "description": "I was in charge of routinary and preventive maintenance planning for fire protection systems.",
+            "descripcion": "Estuve a cargo de la planificación rutinaria de mantenimiento preventivo de sistemas de detección y extinción de incendios en edificaciones civiles."
+        },
+        {
+            "title": "Project Engineer",
+            "titulo": "Ingeniero de Proyectos",
+            "company": "Y&V Ingeniería y Construcción",
+            "place": "Caracas, Venezuela", 
+            "date": "April 2020 - Present",
+            "fecha": "June 2015 – November 2015",
+            "description": "Designed and calculated fire protection systems for refinery plants. I worked with basic and detailed Engineering making hydraulic calculations.",
+            "descripcion": "Diseñé sistemas de detección y extinción de incendios para plantas industriales. Manejé ingeniería básica y de detalle, realizando los cálculos hidráulico necesarios para desarrollar los proyectos."
+        }
+    ] 
+}
