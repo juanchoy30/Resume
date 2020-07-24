@@ -1,0 +1,48 @@
+{
+    "PROGRAMMING": [
+        {
+            "skill": "HTML"
+        },
+        {
+            "skill":"CSS"
+        },
+        {
+            "skill":"JavaScript"
+        },
+        {
+            "skill":"Typescript"
+        },
+        {
+            "skill":"Python"
+        },
+        {
+            "skill":"C++"
+        }
+    ],
+    "TOOL": [
+        {
+            "skill": "Bootstrap 4"
+        },
+        {
+            "skill": "AngularJS"
+        },
+        {
+            "skill": "Git"
+        },
+        {
+            "skill": "jQuery"
+        },
+        {
+            "skill": "AJAX/JSON"
+        },
+        {
+            "skill": "SASS"
+        },
+        {
+            "skill": "MatLab"
+        },
+        {
+            "skill": "Microsoft Office"
+        }
+    ]
+}

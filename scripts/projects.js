@@ -1,4 +1,5 @@
 import { btnRepository, btnLink, gitHubIcon } from './htmlVariable.js';
+import { failMessage } from './failMessage.js';
 
 // THIS FUNCTION COLLECTS THE DATA FROM THE PROJECT JSON FILE
 var portfolio = '#portfolio';
@@ -26,7 +27,7 @@ export function loadProjects() {
                     newContent += '<a ' + btnLink;
                     newContent += 'href="' + projectP.link + '" target="blank">Link</a></li>';
                 } else {
-                    newContent += '';
+                    newContent += '</li>';
                 }
             }
 
@@ -35,9 +36,6 @@ export function loadProjects() {
             $(portfolio).html(UnorderList);
             $(portafolio).html(UnorderList);
 
-        }).fail( function() {
-            $(portfolio).html('Sorry, We could not load the portfolio at the moment. Please check out later');
-            $(portafolio).html('Lo sentimos, el portafalio no se encuentra disponible en estos momentos. Por favor revise más tarde');
-        });
+        }).fail( failMessage(portfolio, portafolio) );
 }
 

@@ -27,8 +27,11 @@ body h5 {
   box-shadow: 5px 3px 5px gray; }
   .card .card-header {
     padding: .3em 1em; }
-    .card .card-header .btn {
-      box-shadow: 5px 3px 5px black !important; }
+    .card .card-header .btn-group {
+      border: 1px solid grey;
+      border-radius: 5px; }
+      .card .card-header .btn-group .btn {
+        box-shadow: none !important; }
   .card .card-body {
     border: 1px solid #91bade; }
     .card .card-body a {

@@ -41,8 +41,12 @@ body {
     box-shadow: 5px 3px 5px gray;
     .card-header {
         padding: .3em 1em;
-        .btn {
-            box-shadow: 5px 3px 5px black !important;
+        .btn-group{
+            border: 1px solid grey;
+            border-radius: 5px;
+            .btn {
+                box-shadow: none !important;
+            }
         }
     }
     .card-body {

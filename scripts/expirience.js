@@ -1,4 +1,5 @@
-import { mainList } from './htmlVariable.js'
+import { mainList } from './htmlVariable.js';
+import { failMessage } from './failMessage.js';
 
 var expirience = '#expirience';
 var experiencia = '#experiencia';
@@ -40,8 +41,5 @@ export function loadExpirience() {
         $(expirience).html(UnorderList);
         $(experiencia).html(UnorderList);
     }
-    }).fail( function() {
-        $(expirience).html('Sorry, We could not load the portfolio at the moment. Please check out later');
-        $(experiencia).html('Lo sentimos, el portafalio no se encuentra disponible en estos momentos. Por favor revise más tarde');
-    });
+    }).fail( failMessage(expirience, experiencia) );
 }
