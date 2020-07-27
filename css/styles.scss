@@ -34,6 +34,7 @@ body {
     }
     .btn {
         box-shadow: 5px 3px 5px black;
+        margin: 3px 0px;
     }
 }
 
@@ -108,4 +109,16 @@ body {
 
 .btn, .badge {
     box-shadow: 5px 3px 5px gray;
+}
+
+  //Hides the equations with code tag
+  .hiddenFromPage {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }

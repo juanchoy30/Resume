@@ -1,14 +1,16 @@
+// Import files
 import { btnRepository, btnLink, gitHubIcon } from './htmlVariable.js';
 import { failMessage } from './failMessage.js';
 
-// THIS FUNCTION COLLECTS THE DATA FROM THE PROJECT JSON FILE
+// Relevant variables
 var portfolio = '#portfolio';
 var portafolio = '#portafolio';
 
-export function loadProjects() {
-    $.getJSON('data/projects.json')
-        .done( function(data) {
+export function loadProjects() {       // Exported function
+    $.getJSON('data/projects.json')    // Getting the json file
+        .done( function(data) {        // If successful
 
+            // Message in every <li>
             var newContent = '';
             for ( var i = 0; i < data.PORTFOLIO.length; i++ ) {
                 
@@ -23,7 +25,7 @@ export function loadProjects() {
                 newContent += '<br><a ' + btnRepository;
                 newContent += 'href="' + projectP.repository + '" target="blank">';
                 newContent += gitHubIcon + ' Repository</a>';
-                if ( projectP.link !== null ) {
+                if ( projectP.link !== null ) {    // If empty data do not add
                     newContent += '<a ' + btnLink;
                     newContent += 'href="' + projectP.link + '" target="blank">Link</a></li>';
                 } else {
@@ -31,11 +33,13 @@ export function loadProjects() {
                 }
             }
 
+            // Gets the <li> elements inside a <ul> element
             var UnorderList = '<ul>' + newContent + '</ul>';
 
+            // Put the respective lists into the DOM
             $(portfolio).html(UnorderList);
             $(portafolio).html(UnorderList);
 
-        }).fail( failMessage(portfolio, portafolio) );
+        }).fail( failMessage(portfolio, portafolio) ); // If unsuccessful
 }
 

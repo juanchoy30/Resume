@@ -24,101 +24,107 @@
                     <div class="col-12 col-sm-8 col-md-9 col-lg-10">
                         <h1>Juan Miguel Choy</h1>
                         <h2>Front End Web Developer</h2>
-                        <a class="btn btn-dark" href="index.html"><i class="fa fa-language fa-lg"></i> Inglés</a>
+                        <nav id="languageButton">
+                            <a class="btn btn-dark languageLink hiddenFromPage" href="spanish.html"><i class="fa fa-language fa-lg"></i> Español</a>
+                            <a class="btn btn-dark languageLink" href="index.html"><i class="fa fa-language fa-lg"></i> English</a>
+                        </nav>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="container">
-            <div class="row row-content borderbottom">
-                <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="card mb-3">
-                        <div class="card-header badge-danger">
-                            <div class="d-flex">
-                                <h3>Datos personales</h3>
-                                <div class="btn-group ml-auto" role="group">
-                                    <a class="btn btn-social-icon btn-primary btn-sm" role="button" href="tel:+5491124505073"><i class="fa fa-phone fa-lg"></i></a>
-                                    <a class="btn btn-social-icon btn-secondary btn-sm" role="button" href="mailto:juanchoy30@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
-                                    <a class="btn btn-social-icon btn-success btn-sm" role="button" href="https://api.whatsapp.com/send?phone=+5491124505073"><i class="text-white fa fa-whatsapp fa-lg"></i></a>
+        <div id="movableContent">
+            <div class="container" id="resumeBody">
+                <div class="row row-content borderbottom">
+                    <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-header badge-danger">
+                                <div class="d-flex">
+                                    <h3>Datos personales</h3>
+                                    <div class="btn-group ml-auto" role="group">
+                                        <a class="btn btn-social-icon btn-primary btn-sm" role="button" href="tel:+5491124505073"><i class="fa fa-phone fa-lg"></i></a>
+                                        <a class="btn btn-social-icon btn-secondary btn-sm" role="button" href="mailto:juanchoy30@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+                                        <a class="btn btn-social-icon btn-success btn-sm" role="button" href="https://api.whatsapp.com/send?phone=+5491124505073"><i class="text-white fa fa-whatsapp fa-lg"></i></a>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card-body">
+                                <address class="white">
+                                    <i class="fa fa-address-card fa-lg"></i> DNI 95690060 <br>
+                                    <i class="fa fa-phone fa-lg"></i> <a href="tel:+5491124505073">+54 9 11 24505073</a><br>
+                                    <i class="fa fa-envelope fa-lg"></i> <a class="white" href="mailto:juanchoy30@gmail.com"> juanchoy30@gmail.com</a><br>
+                                    <i class="fa fa-github fa-lg"></i> <a href="https://github.com/juanchoy30" target="blank"> GitHub: juanchoy30</a><br>
+                                    <i class="fa fa-linkedin fa-lg"></i> <a href="www.linkedin.com/in/juan-miguel-choy-chuecos-68bb63b5" target="blank">Juan Miguel Choy Chuecos</a><br>
+                                    <i class="fa fa-map-marker fa-lg"></i> C.A.B.A. Argentina 
+                                </address>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <address class="white">
-                                <i class="fa fa-address-card fa-lg"></i> DNI 95690060 <br>
-                                <i class="fa fa-phone fa-lg"></i> <a href="tel:+5491124505073">+54 9 11 24505073</a><br>
-                                <i class="fa fa-envelope fa-lg"></i> <a class="white" href="mailto:juanchoy30@gmail.com"> juanchoy30@gmail.com</a><br>
-                                <i class="fa fa-github fa-lg"></i> <a href="https://github.com/juanchoy30" target="blank"> GitHub: juanchoy30</a><br>
-                                <i class="fa fa-linkedin fa-lg"></i> <a href="www.linkedin.com/in/juan-miguel-choy-chuecos-68bb63b5" target="blank">Juan Miguel Choy Chuecos</a><br>
-                                <i class="fa fa-map-marker fa-lg"></i> C.A.B.A. Argentina 
-                            </address>
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-6 col-lg-8 align-self-center">
+                        <h3>Perfil</h3>
+                        <p>Profesional, metódico y analítico. Poseo un gran interés por la programación y me encuentro buscando trabajo como desarrollador Front End. Tengo mucha disposición para seguir aprendiendo y desarrollar mis habilidades.</p>
+                    </div>
+                </div>
+    
+    
+                <div class="row row-content borderbottom">
+                    <div class="col-12 col-md-4 order-md-last">
+    
+                        <div class="skills borderbottom">
+                            <h3>Lenguajes de programación</h3>
+                            <div id="programming" class="spanish1"></div>         
+                        </div>
+    
+                        <div class="skills borderbottom">
+                            <h3>Software y herramientas</h3>
+                            <div id="tool" class="spanish2"></div>
+                        </div>
+                        
+                        <div class="skills borderbottom">
+                            <h3>Habilidades Personales</h3>
+                            <ul class="list-unstyled">
+                                <li><span class="badge badge-primary">Análisis de datos</span></li>
+                                <li><span class="badge badge-primary">Attención a los detalles</span></li>
+                                <li><span class="badge badge-primary">Habilidades administrativas</span></li>
+                                <li><span class="badge badge-primary">Habilidad para trabajar bajo presión</span></li>
+                                 <li><span class="badge badge-primary">Resolución de problemas</span></li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Idiomas</h3>
+                            <ul id="lang">
+                                <li><b>Español</b> <span class="badge badge-pill badge-primary">Nativo</span></li>
+                                <li><b>Inglés</b> <span class="badge badge-pill badge-primary">Advanzado</span> <span class="badge badge-pill badge-primary">CEFR C1</span></li>
+                            </ul>
                         </div>
                     </div>
+    
+                    <div class="col-12 col-md-8">
+                        
+                        <h3>Portafolio</h3>
+                        <div id="portafolio"></div>
+                        
+                        <h3>Experiencia profesional</h3>
+                        <div id="experiencia"></div>
+                        
+                    </div>
                 </div>
-                <div class="col-12 col-sm-5 col-md-6 col-lg-8 align-self-center">
-                    <h3>Perfil</h3>
-                    <p>Profesional, metódico y analítico. Poseo un gran interés por la programación y me encuentro buscando trabajo como desarrollador Front End. Tengo mucha disposición para seguir aprendiendo y desarrollar mis habilidades.</p>
+    
+                <div class="row row-content">
+                    <div class="col-12 col-md-6">
+                        <h3>Educación</h3>
+                        <div id="academico"></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3>Cursos y certificaciones</h3>
+                        <div id="cursos"></div>
+                    </div>
                 </div>
+    
+                
             </div>
-
-
-            <div class="row row-content borderbottom">
-                <div class="col-12 col-md-4 order-md-last">
-
-                    <div class="skills borderbottom">
-                        <h3>Lenguajes de programación</h3>
-                        <div id="programming" class="spanish1"></div>         
-                    </div>
-
-                    <div class="skills borderbottom">
-                        <h3>Software y herramientas</h3>
-                        <div id="tool" class="spanish2"></div>
-                    </div>
-                    
-                    <div class="skills borderbottom">
-                        <h3>Habilidades Personales</h3>
-                        <ul class="list-unstyled">
-                            <li><span class="badge badge-primary">Análisis de datos</span></li>
-                            <li><span class="badge badge-primary">Attención a los detalles</span></li>
-                            <li><span class="badge badge-primary">Habilidades administrativas</span></li>
-                            <li><span class="badge badge-primary">Habilidad para trabajar bajo presión</span></li>
-                             <li><span class="badge badge-primary">Resolución de problemas</span></li>
-                        </ul>
-                    </div>
-                    <div class="skills">
-                        <h3>Idiomas</h3>
-                        <ul id="lang">
-                            <li><b>Español</b> <span class="badge badge-pill badge-primary">Nativo</span></li>
-                            <li><b>Inglés</b> <span class="badge badge-pill badge-primary">Advanzado</span> <span class="badge badge-pill badge-primary">CEFR C1</span></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-8">
-                    
-                    <h3>Portafolio</h3>
-                    <div id="portafolio"></div>
-                    
-                    <h3>Experiencia profesional</h3>
-                    <div id="experiencia"></div>
-                    
-                </div>
-            </div>
-
-            <div class="row row-content">
-                <div class="col-12 col-md-6">
-                    <h3>Educación</h3>
-                    <div id="academico"></div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <h3>Cursos y certificaciones</h3>
-                    <div id="cursos"></div>
-                </div>
-            </div>
-
-            
         </div>
+        
         <footer class="footer bg-secondary">
             <div class="container">
                 <div class="row">

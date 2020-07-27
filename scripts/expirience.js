@@ -1,19 +1,22 @@
+// Import files
 import { mainList } from './htmlVariable.js';
 import { failMessage } from './failMessage.js';
 
+// Relevant variables
 var expirience = '#expirience';
 var experiencia = '#experiencia';
 
-export function loadExpirience() {
-    $.getJSON('data/expirience.json')
-    .done( function(data) {
+export function loadExpirience() {      // Exported function
+    $.getJSON('data/expirience.json')   // Getting the json file
+    .done( function(data) {             // If successful
 
+        // Message in every <li>
         var newContent = '';
         for ( var i = 0; i < data.EXPIRIENCE.length; i++ ) {
 
             var expirienceP = data.EXPIRIENCE[i];
 
-            if ($('div').is(expirience)) {
+            if ($('div').is(expirience)) {                     // English version
                 newContent += '<li><h4>' + expirienceP.title;
                 if ( expirienceP.company !== null ) {
                     newContent += ' at ' + expirienceP.company;
@@ -23,9 +26,9 @@ export function loadExpirience() {
                 newContent += ', ' + expirienceP.place + '</h4>';
                 newContent += expirienceP.date + '<br>' + expirienceP.description;
 
-            } else if ($('div').is(experiencia)) {
+            } else if ($('div').is(experiencia)) {            // Spanish version
                 newContent += '<li><h4>' + expirienceP.titulo;
-                if ( expirienceP.company !== null ) {
+                if ( expirienceP.company !== null ) {    // If empty data do not add
                     if ($('div').is(expirience)) {
                         newContent += ' en ' + expirienceP.company;
                 } else {
@@ -36,10 +39,13 @@ export function loadExpirience() {
             newContent += expirienceP.fecha + '<br>' + expirienceP.descripcion;
         }
 
+        // Get the <li> elements inside a <ul> element
         var UnorderList = '<ul ' + mainList + '>' + newContent + '</ul>';
 
+        // Put the respective lists into the DOM
         $(expirience).html(UnorderList);
         $(experiencia).html(UnorderList);
     }
-    }).fail( failMessage(expirience, experiencia) );
+    }).fail( failMessage(expirience, experiencia)  // Function which manages failure message
+    );
 }

@@ -24,105 +24,111 @@
                     <div class="col-12 col-sm-8 col-md-9 col-lg-10">
                         <h1>Juan Miguel Choy</h1>
                         <h2>Front End Web Developer</h2>
-                        <a class="btn btn-dark" href="spanish.html"><i class="fa fa-language fa-lg"></i> Spanish</a>
+                        <nav id="languageButton">
+                            <a id="spanish" class="btn btn-dark languageLink" href="spanish.html"><i class="fa fa-language fa-lg"></i> Español</a>
+                            <a id="english" class="btn btn-dark languageLink hiddenFromPage" href="index.html"><i class="fa fa-language fa-lg"></i> English</a>
+                        </nav>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class="container">
-            <div class="row row-content borderbottom">
-                <div class="col-12 col-sm-7 col-md-6 col-lg-4">
-                    <div class="card mb-3">
-                        <div class="card-header badge-danger">
-                            <div class="d-flex">
-                                <h3>Personal Data</h3> 
-                                <div class="btn-group ml-auto" role="group">
-                                    <a id="" class="btn btn-social-icon btn-primary btn-sm" role="button" href="tel:+5491124505073"><i class="fa fa-phone fa-lg"></i></a>
-                                    <a class="btn btn-social-icon btn-secondary btn-sm" role="button" href="mailto:juanchoy30@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
-                                    <a class="btn btn-social-icon btn-success btn-sm" role="button" href="https://api.whatsapp.com/send?phone=+5491124505073"><i class="text-white fa fa-whatsapp fa-lg"></i></a>
+        <div id="movableContent">
+            <div class="container" id="resumeBody">
+                <div class="row row-content borderbottom">
+                    <div class="col-12 col-sm-7 col-md-6 col-lg-4">
+                        <div class="card mb-3">
+                            <div class="card-header badge-danger">
+                                <div class="d-flex">
+                                    <h3>Personal Data</h3> 
+                                    <div class="btn-group ml-auto" role="group">
+                                        <a id="" class="btn btn-social-icon btn-primary btn-sm" role="button" href="tel:+5491124505073"><i class="fa fa-phone fa-lg"></i></a>
+                                        <a class="btn btn-social-icon btn-secondary btn-sm" role="button" href="mailto:juanchoy30@gmail.com"><i class="fa fa-envelope fa-lg"></i></a>
+                                        <a class="btn btn-social-icon btn-success btn-sm" role="button" href="https://api.whatsapp.com/send?phone=+5491124505073"><i class="text-white fa fa-whatsapp fa-lg"></i></a>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="card-body">
+                                <address class="white">
+                                    <i class="fa fa-address-card fa-lg"></i> DNI 95690060 <br>
+                                    <i class="fa fa-phone fa-lg"></i> <a href="tel:+5491124505073">+54 9 11 24505073</a><br>
+                                    <i class="fa fa-envelope fa-lg"></i> <a class="white" href="mailto:juanchoy30@gmail.com"> juanchoy30@gmail.com</a><br>
+                                    <i class="fa fa-github fa-lg"></i> <a href="https://github.com/juanchoy30" target="blank"> GitHub: juanchoy30</a><br>
+                                    <i class="fa fa-linkedin fa-lg"></i> <a href="https://www.linkedin.com/in/juan-miguel-choy-chuecos-68bb63b5" target="blank">Juan Miguel Choy Chuecos</a><br>
+                                    <i class="fa fa-map-marker fa-lg"></i> Buenos Aires, Argentina 
+                                </address>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <address class="white">
-                                <i class="fa fa-address-card fa-lg"></i> DNI 95690060 <br>
-                                <i class="fa fa-phone fa-lg"></i> <a href="tel:+5491124505073">+54 9 11 24505073</a><br>
-                                <i class="fa fa-envelope fa-lg"></i> <a class="white" href="mailto:juanchoy30@gmail.com"> juanchoy30@gmail.com</a><br>
-                                <i class="fa fa-github fa-lg"></i> <a href="https://github.com/juanchoy30" target="blank"> GitHub: juanchoy30</a><br>
-                                <i class="fa fa-linkedin fa-lg"></i> <a href="https://www.linkedin.com/in/juan-miguel-choy-chuecos-68bb63b5" target="blank">Juan Miguel Choy Chuecos</a><br>
-                                <i class="fa fa-map-marker fa-lg"></i> Buenos Aires, Argentina 
-                            </address>
+                    </div>
+                    <div class="col-12 col-sm-5 col-md-6 col-lg-8 align-self-center">
+                        <h3>Profile</h3>
+                        <p>Professional, methodical and analytical. I possess a huge interest in programming and coding and I am currently looking for a front end web developer job. I am eager and disposed to keep learning and developing as much as possible my own skills.</p>
+                    </div>
+                </div>
+    
+    
+                <div class="row row-content borderbottom">
+                    <div class="col-12 col-md-4 order-md-last">
+    
+                        <div class="skills borderbottom">
+                            <h3>Programming Languages</h3>
+                            <div id="programming"></div>      
+                        </div>
+    
+    
+                        <div class="skills borderbottom">
+                            <h3>Software and Tools</h3>
+                            <div id="tool"></div>
+                        </div>
+    
+                        <div class="skills borderbottom">
+                            <h3>Personal Skills</h3>
+                            <ul class="list-unstyled">
+                                <li><span class="badge badge-primary">Data Analysis</span></li>
+                                <li><span class="badge badge-primary">Attention to detail</span></li>
+                                <li><span class="badge badge-primary">Management skills</span></li>
+                                <li><span class="badge badge-primary">Ability to work under pressure</span></li>
+                                 <li><span class="badge badge-primary">Conflict resolution</span></li>
+                            </ul>
+                        </div>
+                        <div class="skills">
+                            <h3>Languages</h3>
+                            <ul id="lang">
+                                <li><b>Spanish</b> <span class="badge badge-pill badge-primary">Native</span></li>
+                                <li><b>English</b> <span class="badge badge-pill badge-primary">Advanced</span> <span class="badge badge-pill badge-primary">CEFR C1</span></li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-sm-5 col-md-6 col-lg-8 align-self-center">
-                    <h3>Profile</h3>
-                    <p>Professional, methodical and analytical. I possess a huge interest in programming and coding and I am currently looking for a front end web developer job. I am eager and disposed to keep learning and developing as much as possible my own skills.</p>
-                </div>
-            </div>
-
-
-            <div class="row row-content borderbottom">
-                <div class="col-12 col-md-4 order-md-last">
-
-                    <div class="skills borderbottom">
-                        <h3>Programming Languages</h3>
-                        <div id="programming"></div>      
-                    </div>
-
-
-                    <div class="skills borderbottom">
-                        <h3>Software and Tools</h3>
-                        <div id="tool"></div>
-                    </div>
-
-                    <div class="skills borderbottom">
-                        <h3>Personal Skills</h3>
-                        <ul class="list-unstyled">
-                            <li><span class="badge badge-primary">Data Analysis</span></li>
-                            <li><span class="badge badge-primary">Attention to detail</span></li>
-                            <li><span class="badge badge-primary">Management skills</span></li>
-                            <li><span class="badge badge-primary">Ability to work under pressure</span></li>
-                             <li><span class="badge badge-primary">Conflict resolution</span></li>
-                        </ul>
-                    </div>
-                    <div class="skills">
-                        <h3>Languages</h3>
-                        <ul id="lang">
-                            <li><b>Spanish</b> <span class="badge badge-pill badge-primary">Native</span></li>
-                            <li><b>English</b> <span class="badge badge-pill badge-primary">Advanced</span> <span class="badge badge-pill badge-primary">CEFR C1</span></li>
-                        </ul>
+    
+                    <div class="col-12 col-md-8">
+                        
+                        <h3>Portfolio</h3>
+                        <div id="portfolio"></div>
+                        
+                        <h3>Professional Expirience</h3>
+                        <div id="expirience"></div>
+    
                     </div>
                 </div>
-
-                <div class="col-12 col-md-8">
+    
+                <div class="row row-content">
+    
+                    <div class="col-12 col-md-6">
+                        <h3>Education</h3>
+                        <div id="academic"></div>
+                    </div>
+    
+                    <div class="col-12 col-md-6">
+                        <h3>Courses and Certifications</h3>
+                        <div id="courses"></div>
+                    </div>
                     
-                    <h3>Portfolio</h3>
-                    <div id="portfolio"></div>
-                    
-                    <h3>Professional Expirience</h3>
-                    <div id="expirience"></div>
-
                 </div>
-            </div>
-
-            <div class="row row-content">
-
-                <div class="col-12 col-md-6">
-                    <h3>Education</h3>
-                    <div id="academic"></div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <h3>Courses and Certifications</h3>
-                    <div id="courses"></div>
-                </div>
+    
                 
             </div>
-
-            
         </div>
+        
         <footer class="footer bg-secondary">
             <div class="container">
                 <div class="row">

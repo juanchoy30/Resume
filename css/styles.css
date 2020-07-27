@@ -21,7 +21,8 @@ body h5 {
     height: 174;
     box-shadow: 5px 3px 5px black; }
   .jumbotron .btn {
-    box-shadow: 5px 3px 5px black; }
+    box-shadow: 5px 3px 5px black;
+    margin: 3px 0px; }
 
 .card {
   box-shadow: 5px 3px 5px gray; }
@@ -77,3 +78,13 @@ body h5 {
 
 .btn, .badge {
   box-shadow: 5px 3px 5px gray; }
+
+.hiddenFromPage {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden; }
