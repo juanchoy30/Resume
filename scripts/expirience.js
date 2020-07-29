@@ -11,10 +11,10 @@ export function loadExpirience() {      // Exported function
     .done( function(data) {             // If successful
 
         // Message in every <li>
-        var newContent = '';
-        for ( var i = 0; i < data.EXPIRIENCE.length; i++ ) {
+        let newContent = '';
+        for ( let i = 0; i < data.EXPIRIENCE.length; i++ ) {
 
-            var expirienceP = data.EXPIRIENCE[i];
+            let expirienceP = data.EXPIRIENCE[i];
 
             if ($('div').is(expirience)) {                     // English version
                 newContent += '<li><h4>' + expirienceP.title;
@@ -40,7 +40,7 @@ export function loadExpirience() {      // Exported function
         }
 
         // Get the <li> elements inside a <ul> element
-        var UnorderList = '<ul ' + mainList + '>' + newContent + '</ul>';
+        let UnorderList = '<ul ' + mainList + '>' + newContent + '</ul>';
 
         // Put the respective lists into the DOM
         $(expirience).html(UnorderList);

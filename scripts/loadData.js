@@ -4,6 +4,8 @@ import { loadExpirience } from './expirience.js';
 import { loadEducation } from './education.js';
 import { loadSkills } from './skills.js';
 import { loadLanguage } from './language.js';
+import { backForwars } from './backForwards.js';
+import { changeButton } from './changeButton.js';
 
 // On load function
 $(function() {
@@ -23,19 +25,22 @@ $(function() {
     loadExpirience();      // Functions which manages the expiriences
     loadEducation();       // Functions which manages the education
 
-    // URL
+    // URL MANAGEMENT
     $('.languageLink').on('click', function (e) { // Click event to change the language
         e.preventDefault();
-        loadLanguage(this.href);  // Functions which manages the language selection
+        let href = this.href;
+        loadLanguage(href);  // Functions which manages the language selection
+        history.pushState('', $(this).text, href);  
+        // The pushState() method of the hi story object updates the history stack.
     });
 
+    // FOR BACKWARDS AND FORWARDS
+    window.onpopstate = function() {
+        backForwars();
+    };
+
     // Hides and shows the language button
-    $('#spanish').on('click', function() {
-        $('#english').removeClass('hiddenFromPage');
-        $('#spanish').addClass('hiddenFromPage');
-    });
-    $('#english').on('click', function() {
-        $('#spanish').removeClass('hiddenFromPage');
-        $('#english').addClass('hiddenFromPage');
+    $('nav a').on('click', function () {
+        changeButton(location.pathname);
     });
 });

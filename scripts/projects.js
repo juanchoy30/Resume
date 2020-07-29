@@ -11,10 +11,10 @@ export function loadProjects() {       // Exported function
         .done( function(data) {        // If successful
 
             // Message in every <li>
-            var newContent = '';
-            for ( var i = 0; i < data.PORTFOLIO.length; i++ ) {
+            let newContent = '';
+            for ( let i = 0; i < data.PORTFOLIO.length; i++ ) {
                 
-                var projectP = data.PORTFOLIO[i];
+                let projectP = data.PORTFOLIO[i];
 
                 newContent += '<li>' + projectP.title + ': ';
                 if ($('div').is(portfolio)) {
@@ -34,7 +34,7 @@ export function loadProjects() {       // Exported function
             }
 
             // Gets the <li> elements inside a <ul> element
-            var UnorderList = '<ul>' + newContent + '</ul>';
+            let UnorderList = '<ul>' + newContent + '</ul>';
 
             // Put the respective lists into the DOM
             $(portfolio).html(UnorderList);

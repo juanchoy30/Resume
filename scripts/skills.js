@@ -11,8 +11,8 @@ export function loadSkills() {     // Exported function
     .done( function(data) {        // If successful
         
         // Message in every <li>
-        var newContent1 = '';
-        for ( var i = 0; i < data.PROGRAMMING.length; i++ ) {
+        let newContent1 = '';
+        for ( let i = 0; i < data.PROGRAMMING.length; i++ ) {
             
             newContent1 += '<li><span ' + skillBadge + '>';
             newContent1 += data.PROGRAMMING[i].skill;
@@ -20,8 +20,8 @@ export function loadSkills() {     // Exported function
         }
 
         // Message in every <li>
-        var newContent2 = '';
-        for ( var i = 0; i < data.TOOL.length; i++ ) {
+        let newContent2 = '';
+        for ( let i = 0; i < data.TOOL.length; i++ ) {
             
             newContent2 += '<li><span ' + skillBadge + '>';
             newContent2 += data.TOOL[i].skill;
@@ -29,8 +29,8 @@ export function loadSkills() {     // Exported function
         }
 
         // Get the <li> elements inside a <ul> element
-        var UnorderList1 = '<ul class="list-unstyled">' + newContent1 + '</ul>';
-        var UnorderList2 = '<ul class="list-unstyled">' + newContent2 + '</ul>';
+        let UnorderList1 = '<ul class="list-unstyled">' + newContent1 + '</ul>';
+        let UnorderList2 = '<ul class="list-unstyled">' + newContent2 + '</ul>';
 
         // Put the respective lists into the DOM
         $(programming).html(UnorderList1);

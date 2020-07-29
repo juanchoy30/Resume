@@ -13,10 +13,10 @@ export function loadEducation() {     // Exported function
     .done( function(data) {           // If successful
 
         // Message in every <li>
-        var newContent1 = '';
-        for ( var i = 0; i < data.ACADEMIC.length; i++ ) {
+        let newContent1 = '';
+        for ( let i = 0; i < data.ACADEMIC.length; i++ ) {
 
-            var educationA = data.ACADEMIC[i];
+            let educationA = data.ACADEMIC[i];
 
             newContent1 += '<li><h4>';
             if ($('div').is(education)) {             // English version
@@ -31,10 +31,10 @@ export function loadEducation() {     // Exported function
         }
 
         // Message in every <li>
-        var newContent2 = '';
-        for ( var i = 0; i < data.COURSES.length; i++ ) {
+        let newContent2 = '';
+        for ( let i = 0; i < data.COURSES.length; i++ ) {
 
-            var educationC = data.COURSES[i];
+            let educationC = data.COURSES[i];
 
             newContent2 += '<li><h4>' + educationC.title + '</h4>';
             newContent2 += '<h5>' + educationC.institution + '</h5>';
@@ -47,8 +47,8 @@ export function loadEducation() {     // Exported function
         }
 
         // Get the <li> elements inside a <ul> element
-        var UnorderList1 = '<ul ' + mainList + '>' + newContent1 + '</ul>';
-        var UnorderList2 = '<ul ' + mainList + '>' + newContent2 + '</ul>';
+        let UnorderList1 = '<ul ' + mainList + '>' + newContent1 + '</ul>';
+        let UnorderList2 = '<ul ' + mainList + '>' + newContent2 + '</ul>';
 
         // Put the respective lists into the DOM
         $(education).html(UnorderList1);
