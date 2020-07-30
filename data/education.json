@@ -1,6 +1,7 @@
 {
     "ACADEMIC": [
         {
+            "id": 1,
             "title": "Full Stack Web and Multiplatform Mobile App Development Specialization",
             "titulo": "Full Stack Web and Multiplatform Mobile App Development Specialization",
             "institution": "The Hong Kong University of Science and Technology (Coursera Online Course)",
@@ -8,6 +9,7 @@
             "fecha": "Marzo 2020 – Presente"
         },
         {
+            "id": 2,
             "title": "Bachelor in Mechanical Engineering",
             "titulo": "Ingeniero Mecánico",
             "institution": "Universidad Simón Bolívar, Caracas, Venezuela",
@@ -17,21 +19,25 @@
     ],
     "COURSES": [
         {
+            "id": 1,
             "title": "Front-End Web UI Frameworks and Tools: Bootstrap 4",
             "institution": "The Hong Kong University of Science and Technology (2020) (Coursera Online Course)",
             "certificate": "https://coursera.org/share/8dd194b25d13e6418382a98143afc2d0"
         },
         {
+            "id": 2,
             "title": "Front-End JavaScript Frameworks: Angular",
             "institution": "The Hong Kong University of Science and Technology (2020) (Coursera Online Course)",
             "certificate": "https://coursera.org/share/55e67ef8b6e8d2a26c5efd8d927ade89"
         },
         {
+            "id": 3,
             "title": "Academic IELTS, Band Score 7, CEFR C1.",
             "institution": "Cambridge Assessment English (2016)",
             "certificate": null
         },
         {
+            "id": 4,
             "title": "English Course",
             "institution": "EF, Manchester, UK. (2005)",
             "certificate": null

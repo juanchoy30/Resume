@@ -1,6 +1,7 @@
 {
     "EXPIRIENCE": [
         {
+            "id": 1,
             "title": "Freelancer web developer",
             "titulo": "Freelancer web developer",
             "company": null,
@@ -11,6 +12,7 @@
             "descripcion": "Construcción de páginas web adaptables (HTML/CSS/JavaScript) empleando la herramienta Bootstrap 4 y Angular."
         },
         {
+            "id": 2,
             "title": "Shutdown planning analyst",
             "titulo": "Analista de planificación",
             "company": "Amstork",
@@ -21,6 +23,7 @@
             "descripcion": "Participé en la planificación y ejecución de paradas de planta en la refinería Shell Dock Sud. Estuve a cargo de verificar actividades y materiales de equipos mecánicos y piping."
         },
         {
+            "id": 3,
             "title": "Freelancer Project Engineer",
             "titulo": "Ingeniero de Proyectos Freelancer",
             "company": null,
@@ -31,6 +34,7 @@
             "descripcion": "Comprobé el cálculo hidráulico de un sistema de extinción de incendios fuera de norma en una planta de gas y ofrecí una solución acorde a las normas aplicables de incendio."
         },
         {
+            "id": 4,
             "title": "Maintenance Engineer",
             "titulo": "Ingeniero de Mantenimiento",
             "company": "G&B Controls",
@@ -41,6 +45,7 @@
             "descripcion": "Estuve a cargo de la planificación rutinaria de mantenimiento preventivo de sistemas de detección y extinción de incendios en edificaciones civiles."
         },
         {
+            "id": 5,
             "title": "Project Engineer",
             "titulo": "Ingeniero de Proyectos",
             "company": "Y&V Ingeniería y Construcción",

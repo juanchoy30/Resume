@@ -1,6 +1,7 @@
 {
     "PORTFOLIO": [
         {
+            "id": 1,
             "title": "Recetas de Cristina y Juan",
             "description": "A recipe web page made with Bootstrap 4.",
             "descripcion": "Página web de un catálogo de recetas realizada con Bootstrap 4.",
@@ -9,6 +10,7 @@
             "picture": "img/recetaslogo2.png"
         },
         {
+            "id": 2,
             "title": "Recipes catalog",
             "description": "A recipe catalog made with AngularJS.",
             "descripcion": "Catálogo para recetas hecho con AngularJS.",
@@ -17,6 +19,7 @@
             "picture": null
         },
         {
+            "id": 3,
             "title": "Tribute Page",
             "description": "A tribute page about this excellent venezuelan writer",
             "descripcion": "Página tributo del escritor Venezolano Francisco Herrera Luque.",
@@ -25,6 +28,7 @@
             "picture": "img/tributepage.PNG"
         },
         {
+            "id": 4,
             "title": "Survey Form",
             "description": "A survey form made to check the level of satisfaction of the employees of a company during home office",
             "descripcion": "Una encuesta para verificar el nivel de satisfacción de los empleados de una compañia durante el Home Office.",
@@ -33,6 +37,7 @@
             "picture": "img/surveyForm.PNG"
         },
         {
+            "id": 5,
             "title": "Product Landing Web Page",
             "description": "A product landing web page about a game service",
             "descripcion": "Página de servicio de Video Juegos.",
@@ -41,6 +46,7 @@
             "picture": "img/pixeland.PNG"
         },
         {
+            "id": 6,
             "title": "Technical Documentation Web Page",
             "description": "A technical documentation site about fire protection systems",
             "descripcion": "Documentación técnica acerca de sistemas contra incendio.",
@@ -49,11 +55,21 @@
             "picture": "img/documentationpage.PNG"
         },
         {
+            "id": 7,
             "title": "Personal Portfolio",
             "description": "If you want to see more please check out my personal portfolio",
             "descripcion": "Si deseas seguir viendo más trabajos puedes entrar a mi portafolio personal.",
             "repository": "https://github.com/juanchoy30/personal-portfolio-webpage",
             "link": "https://raw.githack.com/juanchoy30/personal-portfolio-webpage/master/dist/index.html",
+            "picture": null
+        },
+        {
+            "id": 8,
+            "title": "Resume",
+            "description": "You could also check this resume page repository.",
+            "descripcion": "También puedes revisar el repositorio de este CV online.",
+            "repository": "https://github.com/juanchoy30/Resume",
+            "link": null,
             "picture": null
         }
     ]

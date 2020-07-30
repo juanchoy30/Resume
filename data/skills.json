@@ -1,47 +1,61 @@
 {
     "PROGRAMMING": [
         {
+            "id": 1,
             "skill": "HTML"
         },
         {
+            "id": 2,
             "skill":"CSS"
         },
         {
+            "id": 3,
             "skill":"JavaScript"
         },
         {
+            "id": 4,
             "skill":"Typescript"
         },
         {
+            "id": 5,
             "skill":"Python"
         },
         {
+            "id": 6,
             "skill":"C++"
         }
     ],
     "TOOL": [
         {
+            "id": 1,
             "skill": "Bootstrap 4"
         },
         {
+            "id": 2,
             "skill": "AngularJS"
         },
         {
+            "id": 3,
             "skill": "Git"
         },
         {
+            "id": 4,
             "skill": "jQuery"
         },
         {
+            "id": 5,
             "skill": "AJAX/JSON"
         },
         {
+            "id": 6,
             "skill": "SASS"
         },
         {
+            "id": 7,
             "skill": "MatLab"
         },
         {
+            "id": 8,
             "skill": "Microsoft Office"
         }
     ]
