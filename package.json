@@ -15,7 +15,7 @@
     "imagemin": "imagemin img/* --out-dir=dist/img",
     "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin spanish.html -d dist --htmlmin -o dist/spanish.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin && npm run babel",
-    "babel": "npx babel js/* --out-dir=dist/js"
+    "babel": "npx babel js/* --out-dir=dist/js --ignore js/jquery-3.5.1.js"
   },
   "repository": {
     "type": "git",

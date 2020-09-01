@@ -13,8 +13,8 @@ export function loadProjects() {       // Exported function
         url: urlProject,
         type: "GET",
         beforeSend: function() {
-            $(idPortfolio).append('<div id="load">Loading</div>');  // Load message
-            $(portafolio).append('<div id="load">Cargando</div>');  // Load message
+            $(idPortfolio).append('<div id="loading">Loading</div>');  // Load message
+            $(portafolio).append('<div id="loading">Cargando</div>');  // Load message
         },
         complete: function() {           // Once finished
             $('#loading').remove();      // Clear message
@@ -23,7 +23,8 @@ export function loadProjects() {       // Exported function
 
             // Message in every <li>
             let newContent = '';
-            for ( let i = 0; i < data.length; i++ ) {
+            data = data.reverse();
+            for ( let i = 0; i < 5; i++ ) {
                 
                 let projectP = data[i];
 
