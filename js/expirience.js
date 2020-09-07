@@ -40,12 +40,10 @@ export function loadExpirience() {      // Exported function
                 } else if ($('div').is(experiencia)) {            // Spanish version
                     newContent += '<li><h4>' + expirienceP.titulo;
                     if ( expirienceP.company !== null ) {    // If empty data do not add
-                        if ($('div').is(idExpirience)) {
-                            newContent += ' en ' + expirienceP.company;
-                        } else {
+                        newContent += ' en ' + expirienceP.company;
+                    } else {
                         newContent += '';
                         }
-                    }
                 newContent += ', ' + expirienceP.place + '</h4>';
                 newContent += expirienceP.fecha + '<br>' + expirienceP.descripcion;
                 }
